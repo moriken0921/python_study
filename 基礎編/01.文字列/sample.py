@@ -19,3 +19,15 @@ test_str += '678'
 test_str += '9'
 
 print(test_str)
+
+test_str = '012' * 3
+
+print(test_str)
+
+test_integer = 100
+
+print(str(test_integer) + '円')
+
+test_str = 'python-izm'
+
+print(test_str.replace('izm', 'ism'))
