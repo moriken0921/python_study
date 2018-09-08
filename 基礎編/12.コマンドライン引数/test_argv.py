@@ -1,10 +1,12 @@
 import sys
-import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+# 申し訳ございませんが、コマンドプロンプトで
+# 呼び出したときに日本語printすると私の環境だとエラーでるので
+# print内の文字を英語にしました。
 
 args = sys.argv
 
 print(args)
-print('第1引数:' + args[1])
-print('第2引数:' + args[2])
-print('第3引数:' + args[3])
+print('first argument:' + args[1])
+print('second argument:' + args[2])
+print('third argument:' + args[3])
